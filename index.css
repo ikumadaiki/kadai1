@@ -22,7 +22,6 @@ main{
   }
 }
 .main-box{
-  height:300px;
   background-color: #EEEEEE;
   padding: 10px;
   position: relative;
@@ -38,7 +37,6 @@ main{
     width: 90%;
     display:block;
     margin: 0 auto 20px;
-    
   }
 }
 .main-box:last-child{
@@ -46,7 +44,7 @@ main{
 }
 @media screen and (max-width: 768px) {
   .main-box:last-child{
-    margin-bottom: 0;
+    margin: 0 auto;
   }
 }
 .main-image1{
@@ -81,7 +79,7 @@ h3{
   margin-bottom: 5px;
 }
 p{
-  font-size: 12px;
+  
 }
 footer{
   height: 50px;
